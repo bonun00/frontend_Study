@@ -1,0 +1,53 @@
+전체 배경 설정
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.background-box {
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px; /* 모서리를 둥글게 */
+  display: inline-block;
+}
+
+
+/* 버튼 컨테이너 */
+.button-container {
+  display: flex;
+  flex-direction: column; /* 세로 방향 정렬 */
+  align-items: center; /* 가운데 정렬 */
+  gap: 20px; /* 박스와 버튼 사이 간격 */
+}
+
+/* 버튼 위의 텍스트 */
+.text-above {
+  color: white; /* 텍스트 색상 */
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+/* 버튼 스타일 */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px dashed #000000; /* 점선 스타일 테두리 */
+  border-radius: 5px;
+  background-color:transparent;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:transparent;
+}
